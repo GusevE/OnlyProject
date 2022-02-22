@@ -1,0 +1,158 @@
+.service_mobile_content {
+    display: none;
+  }
+
+  
+.wrapper{
+    display: flex;
+}
+.container{
+    padding: 136px 0 0 80px;
+    
+}
+.title{
+    font-family: 'Gilroy-light'; 
+    font-size: 47px;
+}
+.description{
+    flex: 1;
+    font-family: 'Gilroy-light'; 
+    font-size: 25px;
+    padding: 20px 80px 125px 340px;
+}
+.block{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.block_description{
+    padding: 0 80px 0 80px;
+}
+.block_p{
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Gilroy-light';
+    
+    
+}
+.block_p_action{
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Gilroy-light';
+    font-weight: normal;
+    font-weight: 600;
+}
+
+.blockTwo{
+    margin-top: 35px;
+    display: flex;
+
+}
+
+.blockTwo_spisok{
+    list-style: none;
+    padding: 0;
+    line-height: 32px
+}
+.blockTwoDescription{
+    padding-left: 80px;
+    flex: 1;
+}
+.blockTwoDescription:hover .blockTwoImg{
+    display: none;
+}
+.blockTwo_header{
+    padding-top: 75px;
+    font-size: 25px;
+    line-height: 32px
+}
+.transport{
+   
+    display: flex;
+    flex-direction: column;
+    flex:  100%;
+}
+
+
+.service_mobile_header{
+    font-size: 25px;
+    padding-left: 30px;
+}
+.service_mobile_block{    
+    padding: 30px;
+}
+.service_mobile_description ul{
+    list-style: none;
+    font-size: 14px;
+    padding: 0;
+}
+.service_mobile_numder{
+    padding-bottom: 30px;
+}
+.service_mobile{
+    display: flex;
+    width: 320px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.service_mobile_container{
+   padding: 30px 0 30px 30px
+}
+.service_mobile_container:last-child{
+    padding-right: 30px;
+}
+.blockTwoDescription:hover{
+    background-color:#F6F6F6 ;
+}
+
+@media only screen and (max-width: 320px) {
+    .service_mobile_content {
+        display: block;
+      }
+    .container{
+        padding: 40px 0 0 0;
+        font-size: 25px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .description{
+
+        font-size: 16px;
+        font-family: 'Gilroy';
+        padding: 30px 30px 30px 0;
+    }
+    .wrapper{
+        padding-left: 30px;
+        display: block;
+    }
+
+    .block{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .block_description{
+        width: 320px;
+        padding: 30px 40px 30px 30px;
+
+    }
+    .block_p_action{
+        font-size: 14px;
+        line-height: 25px;   
+        font-family: 'Gilroy'; 
+        font-weight: 300;
+    }
+    .block_p{
+        font-size: 14px;
+        line-height: 25px;  
+        font-family: 'Gilroy'; 
+    }
+    .block_service{
+        display: none;
+    }
+     .block_img img{
+        width: 320px;
+        height: 260px;
+    }
+
+}

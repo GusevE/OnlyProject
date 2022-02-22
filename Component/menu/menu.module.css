@@ -1,0 +1,35 @@
+.wrapper {
+    background: #D6D6D6;
+    padding: 45px 26px 0 26px;
+    position: relative;
+}
+
+.logo {
+    content: url(../../public/Union.svg);
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    align-items: center;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+}
+.title{
+    margin-top: 30px;
+}
+.text{
+    padding-top: 650px;
+    padding-bottom: 20px;
+    content: url(../../public/arr.svg);
+}
+.text_one{
+    content: url(../../public/UnionOne.svg);
+    position: absolute;
+    bottom: 20px;
+}
+@media only screen and (max-width: 320px) {
+
+    .wrapper{
+      display: none;
+    }
+  }

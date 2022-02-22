@@ -1,0 +1,134 @@
+.container{
+    display: flex;
+}
+.block__left{
+   width: 90%;
+   background-color: #5551F7;
+}
+.block__right{
+    width: 100%;
+    background:  url(../../public/tanks-and-smokestacks-P8YMA6G.jpg) no-repeat center center, #99999960;
+     background-blend-mode: multiply;
+}
+.wrapper{
+    padding-left: 80px;
+}
+.title{
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 33px ;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 52px;
+}
+.title::before{
+    content: url(../../public/logo.svg);
+    padding-right: 20px;
+}
+.menu {
+    position: relative;
+    display: flex;
+    margin-top: 165px;
+}
+.menu a{
+    font-family: 'Gilroy-light'; 
+    text-decoration: none;
+    color: #F6F6F6;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.action{  
+    padding-left: 20px;
+}
+.action::before{
+    position: absolute;
+    left: 66px;
+    top: 2px;
+    content: url(../../public/arrow.svg);
+    
+}
+.glav{
+    padding-right: 10px;
+
+}
+.h1{
+   padding: 20px 0 195px;
+    font-size: 84px;
+    color: #F6F6F6;
+}
+.description{
+    font-family: 'Gilroy-light'; 
+    border-top: 1px solid #D6D6D6;
+    padding: 48px 80px 48px 80px;
+    color: #F6F6F6;
+    font-size: 19px;
+    font-weight: 300;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 44px;
+}
+.item a { 
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #F6F6F6;
+    text-decoration: none;
+    opacity: 0.5;
+    letter-spacing: 0.1em;
+  }
+  .item a:hover{
+    opacity: 1;
+  }
+  @media only screen and (max-width: 320px) {
+
+    .container{
+        max-width: 320px;
+      display: block;
+    }
+    .item{
+        display: none;
+    }
+    .wrapper{
+      padding-left: 30px;
+    }
+    .h1{
+        font-size: 40px;
+        padding: 0;
+    }
+    .description{
+        max-width: 320px;
+        border: none;
+        padding: 30px 30px 60px 30px;
+        color: #F6F6F6;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .block__right{
+        width: 320px;
+        height: 250px;
+    }
+    .menu {
+        margin-top: 30px;
+    }
+    .block__left{
+        width: 100%;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .burger{
+        display: block;  
+    }
+   }
